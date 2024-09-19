@@ -1,1 +1,0 @@
-from .rewrite_self_attention import rewrite_self_attention

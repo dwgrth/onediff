@@ -1,4 +1,7 @@
 # Initially taken from Github's Python gitignore file
+temp/
+*.pt
+*.graph
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -159,8 +162,6 @@ tags
 # pre-commit
 .pre-commit*
 
-# .lock
-*.lock
 
 # DS_Store (MacOS)
 .DS_Store
@@ -168,11 +169,8 @@ tags
 *.mp4
 
 op_prof.csv
-*.lock
-*.png
 log
 unet_graphs
-*.json
 
 # onediff_comfy_nodes
 *.pt
